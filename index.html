@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	  <script src="https://kit.fontawesome.com/7731116391.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div id="header>
+	<div class="container">
+		<nav>
+			<img src="logo.jfif" class="logo" height="200px" width="100%">
+			<ul>
+				<li><a href="#header">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<i class="fa-sharp fa-solid fa-xmark" id="fas"></i>
+			</ul>
+			<i class="fa-solid fa-bars" id="fas"></i>
+		</nav>
+		<div class="header-text">
+			<p>UI/Ux Designer</p>
+			<h1>Hi I'm <span>Pallavi</span><br>Phatangare From Maharashtra</h1>
+			<a href="resume.pdf" class="btn">Download Resume</a>
+			<a href="#contact" class="btn">Contact</a>
+			
+		</div>
+	</div>
+	</div>
+	<!-----------------------------about--------------------------->
+	<div id="about">
+		<div class="container">
+			<div class="row">
+				<div class="about-col-1">
+					<img src="coding.jfif">
+				</div>
+				<div class="about-col-2">
+					<h1 class="sub-title">About Me</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<div class="tab-titles">
+						<p class="tab-links" onclick="opentab('education')">Education</p>
+					</div>
+					<div class="tab-contents active-tab" id="education">
+						<ul>
+							<li><span>UI/UX</span><br>Designing web/App Interface</li>
+							<li><span>UI/UX</span><br>web Development</li>
+							<li><span>UI/UX</span><br>User Interface Designing</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+<!--------------------------------skills-------------------------------->
+<div id="skills">
+	<div class="container">
+		<h1 class="sub-title">Skills</h1>
+		<div class="skill-left">
+			<ul>
+				<li>C</li>
+				<div class="progress-container">
+                    <div class="progress-bar" data-progress="90%">90%</div>
+                </div>
+				<li>HTML</li>
+				<div class="progress-container">
+                    <div class="progress-bar" data-progress="99%">99%</div>
+                </div>				
+				<li>CSS</li>
+				<div class="progress-container">
+                    <div class="progress-bar" data-progress="99%">99%</div>
+                </div>								
+			</ul>
+		</div>
+		<div class="skill-right">
+			<ul>
+				<li>Bootstrap</li>
+				<div class="progress-container">
+                    <div class="progress-bar" data-progress="99%">99%</div>
+                </div>				
+				<li>Javascript</li>
+				<div class="progress-container">
+                    <div class="progress-bar" data-progress="80%">80%</div>
+    		            </div>				
+				<li>JQuery</li>	
+				<div class="progress-container">
+                    <div class="progress-bar" data-progress="50%">50%</div>
+                </div>				
+			</ul>
+		</div>
+	</div>
+</div>
+
+<!------------------------------------projects----------------------->
+<div class="projects">
+	<div class="container">
+		<h1 class="sub-title">Projects</h1>
+		<div class="images">
+			<img src="calcultr.jfif" id="pro">
+			<img src="code.jfif" id="pro">
+			<img src="weight_c.png" id="pro">
+		</div>
+	</div>
+</div>
+
+<!------------------------------portfoilio---------------------------------->
+<div id="portfolio">
+	<div class="container">
+		<h1 class="sub-title">Portfolio</h1>
+		<div class="work-list">
+			<div class="work">
+				<img src="pal.jpg" height="100%" width="100%">
+				<div class="layer">
+					<h3>I am Pallavi</h3>
+					 <p>Front end developer</p>
+				</div>
+			</div>
+			<div class="work">
+				<img src="pal1.jpg" height="100%" width="100%">
+				<div class="layer">
+					<h3>I am Pallavi</h3>
+					 <p>Front end developer</p>
+				</div>
+			</div>
+			<div class="work">
+				<img src="pal2.jpg" height="100%" width="100%">
+				<div class="layer">
+					<h3>I am Pallavi</h3>
+					 <p>Front end developer</p>
+				</div>
+			</div>
+		</div>
+		<a href="#" class="btn">See More</a>
+	</div>
+</div>
+
+<!---------------------services---------------------->
+<div id="services">
+	<div class="container">
+		<h1 class="sub-title">My Services</h1>
+		<div class="services-list">
+			<div>
+				<i class="fa-solid fa-code"></i>
+				<h2>Web Design</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ent in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<a href="#">Learn more</a>
+			</div>
+			<div>
+				<i class="fa-solid fa-crop-simple"></i>
+				<h2>UI/UX Design</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ent in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<a href="#">Learn more</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!----------------------------------contact----------------->
+<div id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="contact-left">
+				<h1 class="sub-title">Contact Me</h1>
+				<p><i class="fa-solid fa-paper-plane"></i>phatangarepallavi68@gmail.com</p>
+				<p><i class="fa-sharp fa-solid fa-square-phone"></i>9090909090</p>
+				<div class="social-icons">
+					<a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+					<a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-pinterest"></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href=""><i class="fa-brands fa-telegram"></i></a>
+				</div>
+			</div>
+			<div class="contact-right">
+				<form>
+					<input type="text" name="Name" placeholder="Your Name" required>
+					<input type="email" name="email" placeholder="Your Email" required>
+					<textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+					<button type="submit" class="btn">Submit</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+</body>
+</html>
+
+<script type="text/javascript" src="script.js"></script>
